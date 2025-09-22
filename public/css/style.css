@@ -1,0 +1,319 @@
+body {
+  font-family: 'Plus Jakarta Sans', sans-serif !important;
+  font-weight: 400; /* default regular */
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+
+}
+
+.container{
+    flex: 1;
+}
+
+/* Optional: Style your footer */
+footer {
+  background-color: #f0f0f0;
+  text-align: center;
+  /* padding: 1rem; */
+}
+
+.light {
+  font-weight: 300;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semibold {
+  font-weight: 600;
+}
+
+
+/* Navbar */
+.navbar{
+    height: 5rem;
+    background-color: white;
+}
+
+.fa-airbnb{
+    color: #fe424d;
+    font-size: 2rem;
+}
+
+.nav-link{
+    color: #222222 !important;
+}
+
+/* Footer */
+.f-info-links a{
+    text-decoration: none;
+    color: #222222;
+}
+
+.f-info-links a:hover{
+    text-decoration: underline;
+}
+
+.f-info-links,
+.f-info-socials,
+.f-info-brand{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.f-info-socials i{
+    margin-right: 1rem;
+    font-size: 1.3rem;
+}
+
+/* .f-info {
+    text-align: center;
+    height: 8rem;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: space-evenly;
+
+    --from shraddha
+} */
+
+
+
+.f-info {
+    text-align: center;
+    background-color: #ebebeb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;  /* Fixed here */
+    padding: 1.5rem 0;    /* Replaces fixed height */
+    gap: 0.5rem;          /* Optional: spacing between items */
+}
+
+/* Cards */
+.listing-card{
+    border: none !important;
+    margin-bottom: 2rem;
+}
+
+.card-img-top{
+    border-radius: 1rem;
+    width: 100% !important;
+    object-fit: cover !important;
+}
+
+.card-body{
+    padding: 0 !important;
+}
+
+.card-text p{
+    font-weight: 400 !important;
+}
+
+.listing-link{
+    text-decoration: none;
+}
+
+/* Card Effect */
+.card-img-overlay{
+    opacity: 0;
+}
+
+.card-img-overlay:hover{
+    opacity: 0.2;
+    background-color: white;
+}
+
+.add-btn{
+    background-color: #fe424d !important;
+    border: none !important;
+}
+
+/* edit page */
+.edit-btn{
+    background-color: #fe424d !important;
+    border: none !important; 
+}
+
+
+/* Show page */
+
+.show-img{
+    height: 30vh;
+}
+
+.btns{
+    display: flex;
+
+}
+
+.show-card{
+    padding-left: 0;
+    padding-right: 0;
+}
+
+/* map */
+
+#map {
+  height: 400px;
+  width: 60vw;  
+}
+
+
+
+
+/* Define variables for breakpoints */
+:root {
+  --breakpoint-mobile: 768px;
+  --breakpoint-small-mobile: 480px;
+}
+
+/* --- Base Styles for All Screens --- */
+/* You may have existing styles for these elements,
+   but here are some foundational ones for context. */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
+}
+
+.nav-links {
+  display: flex;
+  gap: 1.5rem;
+}
+
+.categories-container {
+  display: flex;
+  padding: 0 1rem;
+  gap: 2rem;
+}
+
+.category {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.category i {
+  font-size: 1.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.category p {
+  font-size: 0.8rem;
+}
+
+/* --- Mobile Responsive Styles --- */
+
+@media (max-width: var(--breakpoint-mobile)) {
+  /* Main header adjustments */
+  header {
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .nav-links {
+    width: 100%;
+    justify-content: space-between;
+  }
+
+  .nav-links .hide-on-mobile {
+    display: none;
+  }
+
+  /* Make category filters scrollable */
+  .categories-container {
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    white-space: nowrap;
+    scrollbar-width: none;
+  }
+
+  .categories-container::-webkit-scrollbar {
+    display: none;
+  }
+
+  .category {
+    flex-shrink: 0; /* Prevents categories from shrinking */
+  }
+
+  /* Make filter bar scrollable */
+  #filters {
+    display: flex;
+    overflow-x: auto;
+    gap: 1rem;
+    padding: 0.5rem;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+  }
+
+  #filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .filter {
+    flex-shrink: 0;
+    font-size: 0.85rem;
+  }
+
+  .tax-toggle {
+    flex-shrink: 0;
+    margin-left: auto;
+    font-size: 0.8rem;
+    padding: 0.5rem;
+    height: auto;
+  }
+
+  /* Adjust listings grid */
+  #listings {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+  }
+
+  .listing-card img {
+    height: 12rem;
+  }
+}
+
+/* --- Very Small Mobile Styles --- */
+@media (max-width: var(--breakpoint-small-mobile)) {
+  #filters {
+    gap: 0.5rem;
+  }
+
+  .filter {
+    font-size: 0.75rem;
+  }
+
+  .filter i {
+    font-size: 1.2rem;
+  }
+
+  .filter p {
+    font-size: 0.75rem;
+  }
+
+  .tax-toggle {
+    font-size: 0.7rem;
+    padding: 0.2rem 0.5rem;
+  }
+
+  #listings {
+    grid-template-columns: 1fr;
+  }
+
+  .listing-card img {
+    height: 10rem;
+  }
+}
