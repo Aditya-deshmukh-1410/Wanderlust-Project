@@ -1,4 +1,4 @@
-Wanderlust – Airbnb Clone
+# Wanderlust – Airbnb Clone
 I developed a full-stack web application that replicates core Airbnb functionalities. The project was built with MongoDB, Express.js, and Node.js, focusing on secure authentication, smooth CRUD operations, and cloud integrations for a production-like experience.
 
 Key Highlights:
