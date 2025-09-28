@@ -72,4 +72,35 @@ Wanderlust-Project/
 
 ```
 
+## 🧰 Installation & Usage
+
+### Prerequisites
+
+- Node.js & npm installed  
+- MongoDB cluster / connection URI  
+- Cloudinary account  
+- Mapbox token  
+
+### Setup Steps
+
+1. Clone the repo:  
+   ```bash
+   git clone https://github.com/Aditya-deshmukh-1410/Wanderlust-Project.git
+
+2. cd Wanderlust-Project
+   npm install
+
+3. Set up your environment variables (create .env file):
+   
+   ATLAS_URL="your_mongo_connection_string"
+   CLOUD_NAME="your_cloudinary_cloud_name"
+   CLOUD_API_KEY="your_cloudinary_api_key"
+   CLOUD_API_SECRET="your_cloudinary_api_secret"
+   MAP_TOKEN="your_mapbox_access_token"
+
+4. Start the app:
+   node app.js or nodemon app.js
+
+5. Open the application in your browser:
+   http://localhost:8080
 
