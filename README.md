@@ -1,14 +1,58 @@
-# 🌍Wanderlust
+# 🌍 Wanderlust
 
-Wanderlust is a modern, full-stack property rental web application (inspired by Airbnb) that lets users explore, review, and share unique stays across the globe.
-This project served as a deep dive into connecting backend logic, database design, and a dynamic frontend UI into one seamless, production-ready application.
+**Wanderlust** is a modern, full-stack property rental web application (inspired by Airbnb) that allows users to explore, review, and share unique stays across the globe.  
 
-# 🚀Key Functionalities
+This project served as a deep dive into backend logic, database design, and building a dynamic frontend UI — all combined into one seamless, production-ready application.  
 
-• Wanderlust provides a robust set of features for both travelers and property owners:
-• CRUD Operations: Full Create, Read, Update, and Delete functionality for property listings.
-• Cloud Image Uploads: Seamlessly upload and manage property photos using Cloudinary for reliable, cloud-based storage.
-• Review System: Users can submit ratings and detailed reviews for any property, complete with validation and timestamps.
-• Interactive Maps: Utilizes the Mapbox API to display property locations with dynamic markers and pop-ups.
-• RESTful API: Structured backend built with Express Routers for clean, modular code.
-• Authentication: Secure user login and authorization implemented using sessions and cookies.
+---
+
+## 🚀 Key Functionalities
+
+Wanderlust provides a robust set of features for both travelers and property owners:
+
+- **CRUD Operations** – Full Create, Read, Update, and Delete functionality for property listings.  
+- **Cloud Image Uploads** – Upload and manage property photos using **Cloudinary** for reliable, cloud-based storage.  
+- **Review System** – Users can submit ratings and detailed reviews for any property, complete with validation and timestamps.  
+- **Interactive Maps** – Utilizes the **Mapbox API** to display property locations with dynamic markers and pop-ups.  
+- **RESTful API** – Structured backend built with **Express Routers** for clean, modular code.  
+- **Authentication** – Secure user login and authorization implemented using sessions and cookies.  
+
+---
+
+## 📌 Demo
+
+- **Live Project:** [https://wanderlust-project-3c3u.onrender.com/]  
+
+
+## 🛠️ Tech Stack & Key Utilities
+
+| Category     | Technology                          | Purpose                                         |
+|--------------|-------------------------------------|-------------------------------------------------|
+| **Frontend** | HTML, CSS, Bootstrap                | UI structure and styling                        |
+| **View**     | EJS (Embedded JavaScript)           | Dynamic view rendering                          |
+| **Backend**  | Node.js, Express.js                 | Server-side runtime and web framework           |
+| **Database** | MongoDB, Mongoose                   | NoSQL database and Object Data Modeling (ODM)   |
+| **Storage**  | Cloudinary                          | Cloud-based image hosting and management        |
+| **Mapping**  | Mapbox                              | Interactive maps and geocoding                  |
+| **Deploy**   | Render                              | Cloud hosting and deployment                    |
+| **Utils**    | Multer, Joi, Custom Middleware      | File handling, schema validation, error handling|
+
+---
+
+## 💡 Major Learnings & Challenges
+
+### Major Learnings
+- **Full-Stack Architecture** – Designing and structuring a complete app from DB to UI.  
+- **Cloud Integration** – Implementing Cloudinary for scalable image storage.  
+- **Geospatial Data** – Using Mapbox API for location data, interactive maps, and geocoding.  
+- **Deployment** – Successfully deploying a MongoDB-backed full-stack app on Render.  
+- **Error Handling Patterns** – Built custom middleware (`ExpressError`, `wrapAsync`) + validation with Joi.  
+
+### Challenges Faced
+- **Image Pipeline** – Transition from local storage to persistent Cloudinary uploads with environment variables.  
+- **Map Integration** – Configuring Mapbox to display coordinates, markers, and pop-ups dynamically.  
+
+---
+
+## 📌 Project Structure
+
