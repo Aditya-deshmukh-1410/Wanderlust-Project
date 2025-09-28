@@ -4,9 +4,8 @@
 
 This project served as a deep dive into backend logic, database design, and building a dynamic frontend UI — all combined into one seamless, production-ready application.  
 
-[![Node.js](https://img.shields.io/badge/Node.js-16.x-green)](https://nodejs.org/)  
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
-[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://wanderlust-project-3c3u.onrender.com/)
+[![Node.js](https://img.shields.io/badge/Node.js-16.x-green)](https://nodejs.org/) [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE) [![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://wanderlust-project-3c3u.onrender.com/)
+
 
 ## 🚀 Key Functionalities
 
