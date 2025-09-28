@@ -1,10 +1,12 @@
-# 🌍 Wanderlust
+# 🌍 Wanderlust - A full-stack property rental platform to explore, list, and review unique stays worldwide
 
 **Wanderlust** is a modern, full-stack property rental web application (inspired by Airbnb) that allows users to explore, review, and share unique stays across the globe.  
 
 This project served as a deep dive into backend logic, database design, and building a dynamic frontend UI — all combined into one seamless, production-ready application.  
 
----
+[![Node.js](https://img.shields.io/badge/Node.js-16.x-green)](https://nodejs.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)  
+[![Website](https://img.shields.io/website-up-down-green-red/http/shields.io.svg)](https://wanderlust-project-3c3u.onrender.com/)
 
 ## 🚀 Key Functionalities
 
@@ -55,4 +57,20 @@ Wanderlust provides a robust set of features for both travelers and property own
 ---
 
 ## 📌 Project Structure
+```
+Wanderlust-Project/
+├── controllers/        # Request handling logic
+├── models/             # Mongoose schemas (User, Listing, Review)
+├── routes/             # Express routers
+├── views/              # EJS templates
+├── public/             # Static CSS, JS, images
+├── utils/              # Helpers, validation schemas, error wrappers
+├── middleware.js       # Custom middlewares
+├── cloudConfig.js      # Cloudinary config
+├── app.js               # Entry point
+├── package.json
+└── README.md
+
+```
+
 
