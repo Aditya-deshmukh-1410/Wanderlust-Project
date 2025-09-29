@@ -96,7 +96,7 @@ Wanderlust-Project/
    CLOUD_NAME="your_cloudinary_cloud_name"
    CLOUD_API_KEY="your_cloudinary_api_key"
    CLOUD_API_SECRET="your_cloudinary_api_secret"
-   MAP_TOKEN="your_mapbox_access_token
+   MAP_TOKEN="your_mapbox_access_token"
 
 4. Start the app:
    node app.js or nodemon app.js
