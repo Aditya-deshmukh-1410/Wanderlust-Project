@@ -130,6 +130,8 @@ Contributions, suggestions, and bug reports are welcome! If you find ways to imp
 
 # 📫 Connect with Me
 
-Feel free to reach out for feedback, collaborations, or just to say hi!
-GitHub: Aditya-deshmukh-1410
-Twitter: @Aadi_deshmukh14
+Feel free to reach out for feedback, collaborations, or just to say hi!  
+
+- **GitHub:** [Aditya-deshmukh-1410](https://github.com/Aditya-deshmukh-1410)  
+- **Twitter:** [@Aadi_deshmukh14](https://x.com/Aadi_deshmukh14)
+
