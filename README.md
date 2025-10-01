@@ -89,7 +89,7 @@ Wanderlust-Project/
 2. cd Wanderlust-Project
    npm install
 
-3. Set up your environment variables (create .env file):
+3. 🔑 Environment Variables: Create a .env file in the project root and add the following placeholders
    
    ATLAS_URL="your_mongo_connection_string"
    CLOUD_NAME="your_cloudinary_cloud_name"
@@ -97,9 +97,27 @@ Wanderlust-Project/
    CLOUD_API_SECRET="your_cloudinary_api_secret"
    MAP_TOKEN="your_mapbox_access_token"
 
-4. Start the app:
+4. Sign up for the necessary services if you haven’t already:
+  – MongoDB Atlas
+  – Cloudinary
+  – Mapbox
+
+5. Replace the placeholder values with your own keys.
+   Example .gitignore entry:
+   ```bash
+     node_modules/
+     .env
+
+6. Your app will automatically read these variables using the dotenv package:
+   ```bash
+   require('dotenv').config();
+   const dbUrl = process.env.ATLAS_URL;
+   const cloudName = process.env.CLOUD_NAME;
+   const mapToken = process.env.MAP_TOKEN;
+
+7. Start the app:
    node app.js or nodemon app.js
 
-5. Open the application in your browser:
+8. Open the application in your browser:
    http://localhost:8080
 
