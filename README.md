@@ -87,15 +87,18 @@ Wanderlust-Project/
    git clone https://github.com/Aditya-deshmukh-1410/Wanderlust-Project.git
 
 2. cd Wanderlust-Project
-   npm install
-
-3. 🔑 Environment Variables: Create a .env file in the project root and add the following placeholders
+    npm install
    
-   ATLAS_URL="your_mongo_connection_string"
-   CLOUD_NAME="your_cloudinary_cloud_name"
-   CLOUD_API_KEY="your_cloudinary_api_key"
-   CLOUD_API_SECRET="your_cloudinary_api_secret"
-   MAP_TOKEN="your_mapbox_access_token"
+
+4. 🔑 Environment Variables: Create a .env file in the project root and add the following placeholders
+   
+  ```bash
+ATLAS_URL="your_mongo_connection_string"
+CLOUD_NAME="your_cloudinary_cloud_name"
+CLOUD_API_KEY="your_cloudinary_api_key"
+CLOUD_API_SECRET="your_cloudinary_api_secret"
+MAP_TOKEN="your_mapbox_access_token"
+```
 
 4. Sign up for the necessary services if you haven’t already:
   – MongoDB Atlas
