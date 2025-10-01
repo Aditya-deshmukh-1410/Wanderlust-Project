@@ -132,6 +132,8 @@ Contributions, suggestions, and bug reports are welcome! If you find ways to imp
 
 Feel free to reach out for feedback, collaborations, or just to say hi!  
 
-- **GitHub:** [Aditya-deshmukh-1410](https://github.com/Aditya-deshmukh-1410)  
+- **LinkedIn:** [Aditya Deshmukh](https://www.linkedin.com/in/aditya-deshmukh14/)
 - **Twitter:** [@Aadi_deshmukh14](https://x.com/Aadi_deshmukh14)
+- **GitHub:** [Aditya-deshmukh-1410](https://github.com/Aditya-deshmukh-1410)  
+
 
