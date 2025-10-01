@@ -124,3 +124,12 @@ MAP_TOKEN="your_mapbox_access_token"
 8. Open the application in your browser:
    http://localhost:8080
 
+##📬 Feedback & Contributions
+
+Contributions, suggestions, and bug reports are welcome! If you find ways to improve the app or want to add new features, please open an issue or submit a pull request.
+
+##📫 Connect with Me
+
+Feel free to reach out for feedback, collaborations, or just to say hi!
+GitHub: Aditya-deshmukh-1410
+Twitter: @Aadi_deshmukh14
