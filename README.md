@@ -128,7 +128,7 @@ MAP_TOKEN="your_mapbox_access_token"
 
 Contributions, suggestions, and bug reports are welcome! If you find ways to improve the app or want to add new features, please open an issue or submit a pull request.
 
-# 📫 Connect with Me
+# 🤝 Connect with Me
 
 Feel free to reach out for feedback, collaborations, or just to say hi!  
 
